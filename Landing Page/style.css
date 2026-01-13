@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    font-size: 22px;
+    color: blue;
+    background: rgb(106, 245, 255);
+    text-align: center;
+    padding: 60px;
+}
+.content{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.product_image{
+    border: solid;
+    border-color: gray;
+    border-width: 4px;
+    margin: 20px;
+}
+.product_image:hover{
+    border: solid;
+    border-color: black;
+    border-width: 4px;
+    margin: 20px;
+    transition: 0.25s;
+}
